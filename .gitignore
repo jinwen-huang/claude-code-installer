@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+
+# 安装包（太大，不放仓库）
+installers/*.exe
+installers/*.msi
+
+# 构建产物
+build/
+dist/
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+nul
+.DS_Store
+Thumbs.db
