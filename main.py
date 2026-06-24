@@ -202,9 +202,11 @@ class MainWindow(QMainWindow):
             self.activation_input.selectAll()
 
     def _check_activation(self):
-        """检查是否已激活"""
-        if is_activated():
-            self._enter_main()
+        """检查是否已激活（暂不启用）"""
+        # TODO: 需要激活时取消下面注释，恢复下行
+        # if is_activated():
+        #     self._enter_main()
+        self._enter_main()
 
     def _enter_main(self):
         self.stacked.setCurrentWidget(self.main_page)
